@@ -250,9 +250,15 @@
 .options {
   background-color: tomato;
   color: black;
-  margin: 50px 40px 80px 50px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
+.options {
+    margin: 10px 0;
+}
 /*FIN JOIN US*/
 
