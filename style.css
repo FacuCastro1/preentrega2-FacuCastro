@@ -275,3 +275,80 @@
 }
 /*FIN JOIN US*/
 
+/* Mobile index.html */
+
+@media only screen and (max-width: 480px) {
+  .inicio header {
+    margin-bottom: 20px; 
+}
+
+nav {
+    text-align: center;
+}
+
+.logo img {
+    height: 100px; /* se redujo el tamano del logo de breaking */
+    width: auto; 
+}
+
+nav ul {
+    display: block; 
+    text-align: center; 
+    line-height: 1.5; /* Ajustando el espacio entre líneas */
+}
+
+nav li {
+    display: block; 
+    margin-right: 0; 
+    margin-bottom: 10px; 
+}
+
+.footer {
+    padding: 10px;
+}
+
+.grid-item {
+    flex: 1 1 100%; 
+}
+
+.social-icons-container {
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+}
+
+.social-icons {
+  width: 30px; 
+  height: auto; 
+}
+}
+
+/* Fin mobile index.html */
+
+/* Desktop index.html */ 
+
+@media only screen and (min-width: 480px) {
+
+  .inicio  header {
+    margin-bottom: 100px; /* Ajusta el margen según tus necesidades */
+  }
+
+  .logo img {
+    height: 200px; /* Ajusta el tamaño del logo según tus necesidades */
+    width: auto;
+  }
+
+  .nav-effect a {
+    line-height: 100px; /* Ajusta la altura de la línea según tus necesidades */
+  }
+
+  .social-icons {
+    justify-content: flex-end;
+    margin-left: 20px; /* Ajusta el margen según tus necesidades */
+  }
+}
+
+/* Fin Desktop Index.html */ 
+
+/* Mobile JoinUS */ 
+
